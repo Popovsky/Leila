@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    max-width: 100%;
+    background: url(../img/bg.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo-menu {
+    width: 100%;
+    color: #dddde2;
+    clear: both;
+    display: table;
+}
+
+.logo-menu img {
+    float: left;
+    padding-top: 5px;
+}
+
+.logo-menu ul {
+    float: right;
+}
+
+.logo-menu ul li {
+    float: left;
+    font-weight: bold;
+    margin-left: 45px;
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+.logo-menu ul li:last-child {
+    color: #f03c6f;
+    border: 1px solid #f03c6f;
+    padding: 10px 23px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    width: 106px;
+}
+
+.logo-menu ul li:first-letter {
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header-content .container {
+    text-align: center;
+    width: 65%;
+}
+
+.header-content .container h1 {
+    margin-top: 230px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 38px;
+}
+
+.header-content .container p {
+    line-height: 1.5;
+    color: #dddde2;
+    font-size: 20px;
+}
+
+.header-content .container .search {
+    margin: 65px;
+}
+
+.header-content .container .search input, .header-content .container .search button {
+    padding: 20px 45px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    outline:none;
+}
+
+.header-content .container .search input {
+    border-radius: 35px 0 0 35px;
+    width: 45%;
+}
+
+.header-content .container .search input::placeholder {
+    color: #565656;
+}
+
+.header-content .container .search button {
+    border-radius: 0 35px 35px 0;
+    color: white;
+    background: #f03c6f;
+    position: relative;
+    right: 5px;
+}
+
+.header-content .container .chat div {
+    width: 36%;
+    margin: 20px auto;
+    padding: 35px 50px;
+    border-radius: 20px;
+    background: #eeeeee;
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+}
+
+.header-content .container .chat div img {
+    position: absolute;
+}
+
+.header-content .container .chat .left {
+    margin-bottom: 43px;
+    margin-top: 130px;
+    right: 100px;
+}
+
+.header-content .container .chat .right {
+    left: 100px;
+}
+
+.header-content .container .chat .left img {
+    left: -55px;
+    top: 10px;
+}
+
+.header-content .container .chat .right img {
+    right: -50px;
+    top: 13px;
+}
+
+.underline {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container-content {
+    width: 60%;
+    margin: auto;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    border-bottom: 1px solid #dddddd;
+    clear: both;
+    display: table;
+}
+
+.container-content p {
+    font-size: 17px;
+    color: #777777;
+    line-height: 1.5;
+}
+
+.container-content span {
+    font-size: 14px;
+    color: #565656;
+    line-height: 2;
+}
+
+.container-content h1 {
+    font-size: 38px;
+}
+
+.content-1 .container-content .left {
+    float: left;
+    width: 60%;
+}
+
+.content-1 .container-content .left img {
+    max-width: 670px;
+    width: 100%;
+}
+
+.content-1 .container-content .right {
+    float: right;
+    padding: 43px 0;
+    width: 40%;
+}
+
+.content-1 .container-content .right .container a {
+    color: #f03c6f;
+}
+
+.content-1 .container-content .right .container .a {
+    margin-top: 20px;
+}
+
+.content-1 .container-content .right .container {
+    margin-right: 0;
+    min-width: 360px;
+}
+
+.content-1 .container-content .right .container ul {
+    clear: both;
+    display: table;
+}
+
+.content-1 .container-content .right .container ul li {
+    float: left;
+    margin-top: 20px;
+}
+
+.content-1 .container-content .right .container ul li:first-child {
+    border-right: 1px solid #dddddd;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.content-2 .container-content .left {
+    padding: 27px 0;
+    float: left;
+    width: 40%;
+}
+
+.content-2 .container-content .right {
+    text-align: right;
+    float: right;
+    width: 60%;
+}
+
+.content-2 .container-content .right img {
+    max-width: 670px;
+    width: 100%;
+}
+
+.content-2 .container-content .left .container {
+    margin-left: 0;
+    min-width: 360px;
+}
+
+.container-content button {
+    text-transform: capitalize;
+    background: #f03c6f;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    padding: 15px 64px;
+    font-family: sans-serif;
+    font-size: 14px;
+    outline: none;
+    margin: 30px 0;
+}
+
+.content-3 .container-content .right {
+    padding: 43px 0;
+}
+
+.content-4 .container-content {
+    text-align: center;
+}
+
+.content-4 .container-content .container {
+    width: 50%;
+    text-align: center;
+}
+
+.content-4 .container-content .container h1 {
+    margin-bottom: 30px;
+}
+
+.container-content>img {
+    margin: 70px 0;
+    width: 100%;
+}
+
+.content-4 .container-content ul {
+    clear: both;
+    display: table;
+    margin: auto;
+}
+
+.content-4 .container-content ul li {
+    float: left;
+    width: 31%;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-4 .container-content ul li:last-child {
+    padding-right: 0;
+}
+
+.content-4 .container-content ul li img {
+    float: left;
+    width: 10%;
+}
+
+.content-4 .container-content ul li div {
+    float: right;
+    width: 90%;
+}
+
+.content-4 .container-content ul li p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content-4 .container-content ul li div .container {
+    margin-right: 0;
+    text-align: left;
+    width: 90%;
+}
+
+.content-4 .container-content {
+    border: none;
+}
+
+.content-5 {
+    background: #f8f8f8;
+}
+
+.content-5 .container-content {
+    border: none;
+}
+
+.content-5 .container-content .left .container h1 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content-5 .container-content .left .container .italic {
+    font-style: italic;
+    color: #222222;
+    font-size: 14px;
+}
+
+.content-5 .container-content .left .container div div p {
+    text-transform: capitalize;
+    color: #222222;
+    font-weight: bold;
+}
+
+.content-5 .container-content .left .container>div {
+    margin-top: 20px;
+    clear: both;
+    display: table;
+}
+
+.content-5 .container-content .left .container div img, .content-5 .container-content .left .container div div {
+    float: left;
+}
+
+.content-5 span {
+    color: #999999;
+}
+
+.content-5 .container-content .left .container div div {
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+
+.content-5 .container-content .left {
+    padding: 75px 0;
+}
+
+.content-6 .container-content {
+    text-align: center;
+    border: none;
+}
+
+.content-6 .container-content h1 {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #f7f7f7;
+    padding: 135px 0 54px;
+}
+
+.footer-container i {
+    color: #999999;
+}
+
+.footer-container {
+    width: 60%;
+    margin: auto;
+    position: relative; 
+}
+
+.footer-container>div {
+    width: 33%;
+}
+
+.footer-container .left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-container .left img {
+    margin-bottom: 15px;
+}
+
+.footer-container .center {
+    text-align: center;
+    margin: auto;
+}
+
+.footer-container .right {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-container .right ul li {
+    margin-left: 15px;
+    display: inline-table;
+}
+
+.footer-container .right .icons li {
+    margin-bottom: 15px;
+}
+
+/* .footer-container table {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-container table tr {
+    width: 100%;
+    position: relative;
+}
+
+.footer-container table tr td {
+    width: 33%;
+    position: relative;
+}
+
+.footer-container table tr td div {
+    position: absolute;
+    bottom: 0;
+} */
